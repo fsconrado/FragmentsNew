@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 conversasFragment = new ConversasFragment();
-
+                //Teste com GitHub
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.frameConteudo, conversasFragment);
                 transaction.commit();
